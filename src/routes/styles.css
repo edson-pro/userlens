@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-slate-50 scroll-smooth 
+  /* color-scheme: dark; */;
+}
+body {
+  @apply overflow-x-hidden;
+}
+#nprogress .bar {
+  background: #5662f6 !important;
+}
+.svelte-lightbox-header button {
+  @apply !text-[30px];
+}
+.svelte-lightbox-main {
+  @apply px-3;
+}
+.previous-button svg {
+  @apply bg-white cursor-pointer border-slate-300 shadow-xl border rounded-sm  pl-2 py-1 !h-[2rem];
+}
+.next-button svg {
+  @apply bg-white  cursor-pointer ml-auto border-slate-300 shadow-xl border rounded-sm  pr-2 py-1 !h-[2rem];
+}
+.svelte-lightbox-body img {
+  @apply rounded-[7px];
+}
+.svelte-lightbox-footer {
+  display: none !important;
+  font-size: 13px !important;
+  margin-top: 10px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.widget-achor {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
