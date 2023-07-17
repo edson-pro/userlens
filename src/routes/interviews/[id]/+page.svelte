@@ -133,6 +133,23 @@
       </p>
     </div>
   </div>
+
+  <div class="mt-6">
+    <h4 class="text-[14.5px] font-semibold">Keey insights</h4>
+    <div class="mt-3">
+      <ul class="list-disc pl-5">
+        <li class="text-sm font-medium leading-9 text-slate-600">
+          I've been using your app for about a year now.
+        </li>
+        <li class="text-sm font-medium leading-9 text-slate-600">
+          The process itself was fine, but what bothered me was that it wasn\'t
+        </li>
+        <li class="text-sm font-medium leading-9 text-slate-600">
+          Wonderful! And I'm assuming you've found it to be faster
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="mt-8">
     <h4 class="text-[15px] font-semibold">Transcript</h4>
     <div class="my-5">
