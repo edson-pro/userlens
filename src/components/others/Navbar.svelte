@@ -14,7 +14,7 @@
 
 <nav class="bg-slate-100 border-b border-slate-200">
   <div class="flex items-center py-2 mx-auto justify-between max-w-6xl md:px-0">
-    <div class="flex items-center gap-5">
+    <div class="flex items-center gap-8">
       <a href="/">
         <Logo width={120} height={40} />
       </a>
@@ -23,10 +23,10 @@
           <li>
             <a
               href={link.href}
-              class={`text-slate-700 hover:bg-opacity-60 hover:bg-blue-200 hover:text-blue-500 px-3 py-2 rounded-[3px] text-[13.5px] font-medium ${
+              class={`text-slate-900 hover:bg-opacity-60 hover:bg-blue-200 hover:text-blue-500 px-3 py-2 rounded-[3px] text-[13.5px] font-medium ${
                 link.href === $page.url.pathname ||
                 $page.url.pathname.split("/")[1] === link.href.split("/")[1]
-                  ? "bg-blue-200 bg-opacity-50 text-blue-500"
+                  ? "bg-blue-200 bg-opacity-50 !text-blue-500"
                   : ""
               }`}
             >

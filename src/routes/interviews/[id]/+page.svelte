@@ -135,7 +135,7 @@
   </div>
   <div class="mt-8">
     <h4 class="text-[15px] font-semibold">Transcript</h4>
-    <div class="my-8">
+    <div class="my-5">
       {#each conversations as conv}
         <div class="grid grid-cols-10">
           <h4
@@ -144,7 +144,7 @@
             {conv.from}
           </h4>
           <p
-            class="text-sm border border-slate-300 p-4 col-span-8 font-medium leading-8 text-slate-600"
+            class="text-[13.7px] border border-slate-300 p-4 col-span-8 font-medium leading-8 text-slate-600"
           >
             {conv.content}
           </p>
