@@ -4,7 +4,6 @@
   import ProfileDropdown from "./ProfileDropdown.svelte";
   import { page } from "$app/stores";
   const links = [
-    { href: "/", label: "Dashboard" },
     { href: "/interviews", label: "Interviews" },
     { href: "/personas", label: "Personas" },
     { href: "/extension", label: "Chrome extension" },

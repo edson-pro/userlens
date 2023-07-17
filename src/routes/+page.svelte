@@ -1,7 +1,10 @@
 <script lang="ts">
-  import Seo from "@/components/others/Seo.svelte";
+  import { browser } from "$app/environment";
+  import { goto } from "$app/navigation";
+
+  if (browser) {
+    goto("/interviews");
+  }
 </script>
 
-<Seo title="OCTO UI" description="Dashboard of octo ui." />
-
-<div class="h-[100vh]" />
+<div class="h-screen" />
